@@ -1,52 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Website</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
 
-<div class="wrapper">
-  <div class="left-column">
-    <div class="profile">
-      <h2>Your Name</h2>
-      <p>Your Bio or Information</p>
-    </div>
-  </div>
+.wrapper {
+  display: flex;
+}
 
-  <div class="main-content">
-    <div class="tabs">
-      <button class="tablink" onclick="openTab('Tab1')">Tab 1</button>
-      <button class="tablink" onclick="openTab('Tab2')">Tab 2</button>
-      <button class="tablink" onclick="openTab('Tab3')">Tab 3</button>
-      <button class="tablink" onclick="openTab('Tab4')">Tab 4</button>
-    </div>
+.left-column {
+  width: 250px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+}
 
-    <div id="Tab1" class="tabcontent">
-      <h3>Content for Tab 1</h3>
-      <p>This is the content of Tab 1.</p>
-    </div>
+.profile {
+  text-align: center;
+}
 
-    <div id="Tab2" class="tabcontent">
-      <h3>Content for Tab 2</h3>
-      <p>This is the content of Tab 2.</p>
-    </div>
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+}
 
-    <div id="Tab3" class="tabcontent">
-      <h3>Content for Tab 3</h3>
-      <p>This is the content of Tab 3.</p>
-    </div>
-
-    <div id="Tab4" class="tabcontent">
-      <h3>Content for Tab 4</h3>
-      <p>This is the content of Tab 4.</p>
-    </div>
-  </div>
-</div>
-
-<script src="scripts.js"></script>
-
-</body>
-</html>
+/* Rest of the existing CSS remains unchanged */
