@@ -1,35 +1,28 @@
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
 }
 
-.tabs {
-  overflow: hidden;
+.wrapper {
+  display: flex;
 }
 
-.tablink {
+.left-column {
+  width: 250px;
   background-color: #f2f2f2;
-  border: 1px solid #ccc;
-  float: left;
-  display: block;
-  color: #333;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.profile {
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
-.tablink:hover {
-  background-color: #ddd;
-}
-
-.tabcontent {
-  display: none;
+.main-content {
+  margin-left: 250px;
   padding: 20px;
 }
 
-h3 {
-  color: #333;
-}
-
-p {
-  color: #555;
-}
+/* Rest of the existing CSS remains unchanged */
