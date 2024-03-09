@@ -21,7 +21,7 @@ body {
 }
 
 .main-content {
-  margin-left: 250px;
+  margin-left: 270px; /* Adjusted margin to accommodate the left column width and padding */
   padding: 20px;
 }
 
